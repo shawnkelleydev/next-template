@@ -1,6 +1,4 @@
 .page-content {
   display: flex;
   flex: 1;
-  gap: 16px;
-  margin-top: 16px;
 }

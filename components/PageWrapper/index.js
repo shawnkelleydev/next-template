@@ -7,15 +7,12 @@ import PageContent from 'components/PageContent'
 
 import styles from './styles.module.css'
 
-export default function PageWrapper({ children, headerText }) {
+export default function PageWrapper({ children }) {
   return (
     <div className={styles['page-wrapper']}>
       <Head />
       <Header />
-      <main>
-        <h2>{headerText}</h2>
-        <PageContent>{children}</PageContent>
-      </main>
+      <PageContent>{children}</PageContent>
       <Footer />
     </div>
   )
