@@ -1,5 +1,6 @@
 .button {
   /* TODO: set button defaults */
+  /* REMINDER: text content must be managed with additional markup */
   --border-radius: 8px;
   --color-background: var(--color-primary);
   --color-highlight-background: var(--color-accent);
