@@ -3,9 +3,9 @@ import { meta } from 'constants/data'
 
 import styles from './styles.module.css'
 
-export default function Banner() {
+export default function Logo() {
   return (
-    <div className={styles.banner}>
+    <div className={styles.logo}>
       <Link href='/'>
         <a>
           <h1>
