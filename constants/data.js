@@ -16,7 +16,7 @@ export const meta = {
   TITLE: 'title',
 }
 
-// TODO: edit pages
+// TODO: edit pages && change page folder names to match
 export const pages = ['page1', 'page2', 'page3']
 
 // TODO: edit footerLinks

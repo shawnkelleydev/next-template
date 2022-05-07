@@ -7,18 +7,13 @@ import PageContent from 'components/PageContent'
 
 import styles from './styles.module.css'
 
-export default function PageWrapper({ children }) {
-  let { route } = useRouter()
-  route = route.replace('/', '')
-
-  if (route === '') route = 'home'
-
+export default function PageWrapper({ children, headerText }) {
   return (
     <div className={styles['page-wrapper']}>
       <Head />
       <Header />
       <main>
-        <h2>{route}</h2>
+        <h2>{headerText}</h2>
         <PageContent>{children}</PageContent>
       </main>
       <Footer />
