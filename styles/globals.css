@@ -14,6 +14,10 @@
   --color-accent: rgb(144, 103, 26);
 }
 
+h1 {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
 }

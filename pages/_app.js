@@ -1,5 +1,6 @@
 import PageWrapper from 'components/PageWrapper'
 
+import 'normalize.css'
 import 'styles/globals.css'
 
 function MyApp({ Component, pageProps }) {

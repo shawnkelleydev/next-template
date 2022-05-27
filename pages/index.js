@@ -1,5 +1,5 @@
 import PageWrapper from 'components/PageWrapper'
 
 export default function Home() {
-  return <h2>CONTENT</h2>
+  return <h2>Home</h2>
 }
