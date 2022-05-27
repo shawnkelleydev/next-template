@@ -18,10 +18,3 @@ export const meta = {
 
 // TODO: edit pages && change page folder names to match
 export const pages = ['page1', 'page2', 'page3']
-
-// TODO: edit footerLinks
-export const footerLinks = [
-  { name: 'LINK1', url: '/' },
-  { name: 'LINK2', url: '/' },
-  { name: 'LINK3', url: '/' },
-]
