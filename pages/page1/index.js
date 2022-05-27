@@ -1,5 +1,9 @@
 import styles from './styles.module.css'
 
 export default function Page1() {
-  return <h2>Page1</h2>
+  return (
+    <div className={styles.page1}>
+      <h2>Page 1</h2>
+    </div>
+  )
 }

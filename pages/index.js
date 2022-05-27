@@ -1,5 +1,9 @@
-import PageWrapper from 'components/PageWrapper'
+import styles from './styles.module.css'
 
 export default function Home() {
-  return <h2>Home</h2>
+  return (
+    <div className={styles.home}>
+      <h2>home</h2>
+    </div>
+  )
 }
