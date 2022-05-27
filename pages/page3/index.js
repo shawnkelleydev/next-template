@@ -1,7 +1,5 @@
-import PageWrapper from 'components/PageWrapper'
-
 import styles from './styles.module.css'
 
-export default function Contact() {
-  return <PageWrapper></PageWrapper>
+export default function Page3() {
+  return <h2>Page3</h2>
 }

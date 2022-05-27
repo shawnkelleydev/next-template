@@ -1,7 +1,5 @@
-import PageWrapper from 'components/PageWrapper'
-
 import styles from './styles.module.css'
 
-export default function About() {
-  return <PageWrapper></PageWrapper>
+export default function Page1() {
+  return <h2>Page1</h2>
 }
